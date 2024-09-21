@@ -11,7 +11,6 @@ gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # Detect faces in the image
 faces = face_cascade.detectMultiScale(gray, 1.3, 5)
-
 for (x, y, w, h) in faces:
     # Draw a rectangle around the face
     cv2.rectangle(image, (x, y), (x+w, y+h), (255, 0, 0), 2)
@@ -24,7 +23,6 @@ for (x, y, w, h) in faces:
     for (ex, ey, ew, eh) in eyes:
         # Draw a rectangle around the eyes
         cv2.rectangle(roi_color, (ex, ey), (ex+ew, ey+eh), (0, 255, 0), 2)
-
 # Display the result
 cv2.imshow('Facial Feature Art', image)
 cv2.waitKey(0)
