@@ -1,0 +1,1 @@
+Generative Adversarial Networks (GAN): Implement a Python GAN to generate synthetic images, such as creating new artwork or enhancing low-resolution photos.
