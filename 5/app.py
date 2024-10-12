@@ -58,7 +58,7 @@ def label():
     # the parameter 'eigvals' is defined (low value to heigh value). 
     # eigh function will return the eigen values in asending order.
     # this code generates only the top 2 (782 and 783) eigenvalues.
-    values, vectors = eigh(covar_matrix, eigvals=(782,783))
+    values, vectors = eigh(covar_matrix, eigh=(782,783))
 
     print("Shape of eigen vectors = ",vectors.shape)
     # converting the eigen vectors into (2,d) shape for easyness of further computations.
