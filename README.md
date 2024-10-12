@@ -1,7 +1,26 @@
 # CAI 2840C
 
+
+How to install needed packages
+
 ```
-pip install opencv-python
+pip install -r requirements.txt
+```
+
+Alternative method
+
+```
+pip install opencv-python requirements
+```
+
+If that doesnt work use `pip3`
+
+```
+# run this
+pip install -r requirements.txt
+
+# or use this if the first one doesnt work
+pip install opencv-python requirements
 ```
 
 ## Round 1
