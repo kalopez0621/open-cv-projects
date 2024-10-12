@@ -4,17 +4,110 @@
 #
 #    pip-compile requirements.in
 #
+absl-py==2.1.0
+    # via
+    #   tensorboard
+    #   tensorflow
+astunparse==1.6.3
+    # via tensorflow
+cachetools==5.5.0
+    # via google-auth
 certifi==2024.8.30
     # via requests
-charset-normalizer==3.3.2
+charset-normalizer==3.4.0
     # via requests
+flatbuffers==24.3.25
+    # via tensorflow
+gast==0.6.0
+    # via tensorflow
+google-auth==2.35.0
+    # via
+    #   google-auth-oauthlib
+    #   tensorboard
+google-auth-oauthlib==1.0.0
+    # via tensorboard
+google-pasta==0.2.0
+    # via tensorflow
+grpcio==1.66.2
+    # via
+    #   tensorboard
+    #   tensorflow
+h5py==3.12.1
+    # via tensorflow
 idna==3.10
     # via requests
-numpy==2.1.1
-    # via opencv-python
+keras==2.14.0
+    # via tensorflow
+libclang==18.1.1
+    # via tensorflow
+markdown==3.7
+    # via tensorboard
+markupsafe==3.0.1
+    # via werkzeug
+ml-dtypes==0.2.0
+    # via tensorflow
+numpy==2.1.2
+    # via
+    #   h5py
+    #   ml-dtypes
+    #   opencv-python
+    #   tensorboard
+    #   tensorflow
+oauthlib==3.2.2
+    # via requests-oauthlib
 opencv-python==4.10.0.84
     # via -r requirements.in
+opt-einsum==3.4.0
+    # via tensorflow
+packaging==24.1
+    # via tensorflow
+protobuf==4.25.5
+    # via
+    #   tensorboard
+    #   tensorflow
+pyasn1==0.6.1
+    # via
+    #   pyasn1-modules
+    #   rsa
+pyasn1-modules==0.4.1
+    # via google-auth
 requests==2.32.3
+    # via
+    #   -r requirements.in
+    #   requests-oauthlib
+    #   tensorboard
+requests-oauthlib==2.0.0
+    # via google-auth-oauthlib
+rsa==4.9
+    # via google-auth
+six==1.16.0
+    # via
+    #   astunparse
+    #   google-pasta
+    #   tensorboard
+    #   tensorflow
+tensorboard==2.14.1
+    # via tensorflow
+tensorboard-data-server==0.7.2
+    # via tensorboard
+tensorflow==2.14.0
     # via -r requirements.in
+tensorflow-estimator==2.14.0
+    # via tensorflow
+tensorflow-io-gcs-filesystem==0.37.1
+    # via tensorflow
+termcolor==2.5.0
+    # via tensorflow
+typing-extensions==4.12.2
+    # via tensorflow
 urllib3==2.2.3
     # via requests
+werkzeug==3.0.4
+    # via tensorboard
+wheel==0.44.0
+    # via astunparse
+wrapt==1.14.1
+    # via tensorflow
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools
