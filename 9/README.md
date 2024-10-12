@@ -1,0 +1,1 @@
+Variational Autoencoders (VAE): Develop a Python VAE model to compress and generate new data, exploring how VAEs can be used for tasks like anomaly detection or generating realistic-looking data samples.
